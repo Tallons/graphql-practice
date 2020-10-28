@@ -5,8 +5,8 @@ module.exports = gpl`
       id: ID!
       name: String!
       slug: String!
-      createdAt: String!
-      updatedAt: String!
+      createdAt: DateTime!
+      updatedAt: DateTime!
 
    }
 `

@@ -2,8 +2,11 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { graphqlExpress, graphiqlExpress, ApolloServer, gql } = require('apollo-server-express');
 const { makeExecutableSchema } = require('graphql-tools');
+const typeDefs = require("./typeDefs");
+const resolvers = require("./resolvers");
 
 const app = express();
+
 // Some fake data
 const books = [
   {

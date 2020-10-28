@@ -6,7 +6,7 @@ module.exports = gpl`
       content: String!
       user: User!
       bestAnswer: Boolean!
-      createdAt: String!
-      updatedAt: String!
+      createdAt: DateTime!
+      updatedAt: DateTime!
    }
 `

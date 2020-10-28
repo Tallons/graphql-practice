@@ -11,8 +11,8 @@ module.exports = gpl`
       status: ThreadStatus!
       isLocked: Boolean!
       lastRepliedAt: String!
-      createdAt: String!
-      updatedAt: Sting!
+      createdAt: DateTime!
+      updatedAt: DateTime!
    }
 
    enum ThreadStatus {
